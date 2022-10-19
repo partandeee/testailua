@@ -1,0 +1,14 @@
+{
+
+    "launch": {
+
+        "configurations": [],
+        "compounds": [],
+        "editor.autoClosingBrackets": false,
+        "editor.suggestOnTriggerCharacters": false,
+    },
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": "inline"
+    },
+}
