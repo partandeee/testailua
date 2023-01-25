@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="testit.js" defer ></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h2 class="page_title">RULER GAYS</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_content">
+            <div class="rarity_rows">Legendary<button class="buttons" id="dropdown-btn1">></button>
+                <ul class="dropdown" id="cardsList1">
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                </ul>
+            </div>
+            <div class="rarity_rows">Epic<button class="buttons" id="dropdown-btn2">></button>
+                <ul class="dropdown" id="cardsList2">
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                </ul>
+            </div>
+            <div class="rarity_rows">Rare<button class="buttons" id="dropdown-btn3">></button>
+                <ul class="dropdown" id="cardsList3">
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                    <li>
+                        <img src="kuvat/lol character.png" class="item-icon">
+                    </li>
+                </ul>
+            </div>   
+    </main>
+</body>
+<script>
+    const dropdownButton1 = 
+    document.getElementById("dropdown-btn1");
+    const showCards1 = 
+    document.getElementById("cardsList1");
+
+    showCards1.style.display = "none";
+
+    dropdownButton1.addEventListener("click", (event) =>{
+        if (showCards1.style.display == "none"){
+            showCards1.style.display = "flex"
+        }else {
+            showCards1.style.display = "none"
+        }
+    });
+
+    const dropdownButton2 = 
+    document.getElementById("dropdown-btn2");
+    const showCards2 = 
+    document.getElementById("cardsList2");
+
+    showCards2.style.display = "none";
+
+    dropdownButton2.addEventListener("click", (event) =>{
+        if (showCards2.style.display == "none"){
+            showCards2.style.display = "flex"
+        }else {
+            showCards2.style.display = "none"
+        }
+    });
+
+    const dropdownButton3 = 
+    document.getElementById("dropdown-btn3");
+    const showCards3 = 
+    document.getElementById("cardsList3");
+
+    showCards3.style.display = "none";
+
+    dropdownButton3.addEventListener("click", (event) =>{
+        if (showCards3.style.display == "none"){
+            showCards3.style.display = "flex"
+        }else {
+            showCards3.style.display = "none"
+        }
+    });
+</script>
+</html>

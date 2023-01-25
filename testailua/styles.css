@@ -1,0 +1,36 @@
+.head {
+    display:flex;
+    justify-content: center;
+}
+
+.main_content {
+    height: 100%;
+}
+.rarity_rows {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.dropdown {
+    display:flex;
+    text-decoration:none;
+    list-style:none;
+    margin: 50px 50px;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.buttons {
+    border: 0rem;
+    font-weight:bold;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 30px;
+    transform: rotate(90deg);
+    cursor:pointer;
+}
+
+.buttons:on-hover {
+    background-color: rgb(151, 40, 40);
+}
